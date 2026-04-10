@@ -1,15 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: teste
-  title: Infre test
-  description: Repositório da plataforma Backstage 
+  name: acr-cleaner
+  title: ACR Cleaner
+  namespace: platform-engineering
+  description: I created a script that deletes all unused images. This resulted in savings of over 70% in ACR usage.
   tags:
-    - datahub
-  labels:
-    datahub: "acesso" 
+    - automation
+    - azure
+    - bash-script
 spec:
   type: skill
-  lifecycle: none 
-  owner: group:default/raizen
-  system: system:default/project
+  owner: user:default/vinicius-juliasse-dantas
+  lifecycle: none
+  system: system:default/automations
+  subcomponentOf: component:platform-engineering/acr-cleaner
