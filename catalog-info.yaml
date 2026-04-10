@@ -14,4 +14,4 @@ spec:
   owner: user:default/vinicius-juliasse-dantas
   lifecycle: none
   system: system:default/automations
-  subcomponentOf: component:platform-engineering/acr-cleaner
+  subcomponentOf: component:platform-engineering/azure-cost-reduction
