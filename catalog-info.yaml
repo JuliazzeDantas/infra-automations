@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: teste
+  title: Infre test
+  description: Repositório da plataforma Backstage 
+  tags:
+    - datahub
+  labels:
+    datahub: "acesso" 
+spec:
+  type: skill
+  lifecycle: none 
+  owner: group:default/raizen
+  system: system:default/project
